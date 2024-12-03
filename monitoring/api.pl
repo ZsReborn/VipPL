@@ -5,7 +5,7 @@ use warnings;
 use Getopt::Long qw(GetOptions);
 my $command = "summary";
 my $address = "127.0.0.1";
-my $port = "4086";
+my $port = "3763";
 GetOptions('cmd=s' => \$command,
            'address=s' => \$address,
            'port=s' => \$port,
